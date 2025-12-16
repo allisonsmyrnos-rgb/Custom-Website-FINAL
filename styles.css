@@ -1,0 +1,56 @@
+body{
+    background: #eff0e6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgb(248, 133, 151);
+}
+
+.common{
+    background-color: rgb(237, 246, 218);
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header{
+    top:5px;
+    left:10px;
+    right:10px;
+    height:100px;
+   font-style: oblique;
+}
+
+.left{
+    top: 115px;
+    left: 10px;
+    bottom: 100px;
+    width: 140px;
+    height: fit-content;
+    font-style: italic;
+}
+
+.main{
+    top: 115px;
+    left: 170px;
+    right: 170px;
+    bottom: 400px;
+    height: fit-content;
+    font-style: normal
+}
+
+.right{
+     top:115px;
+    right:10px;
+    bottom:100px;
+    width: 140px;
+    height:fit-content; 
+    font-style: italic;
+}
+
+.footer{
+    bottom:10px;
+    height:25px; 
+    left:15px;
+    right:25px;
+    position: fixed;
+    font-style: italic;
+}
